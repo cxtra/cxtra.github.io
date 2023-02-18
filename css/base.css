@@ -2053,7 +2053,7 @@ header.affix .cart {
 }
 
 section {
-  padding: 100px 0;
+  padding: 130px 0;
   vertical-align: top;
 }
 
@@ -2103,8 +2103,8 @@ section.on-foot {
 }
 
 footer {
-  margin-top: -290px;
-  padding: 230px 0 100px;
+  margin-top: -0px;
+  padding: 30px 0 100px;
   background: #f0f0f0;
 }
 
