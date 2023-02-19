@@ -2104,7 +2104,7 @@ section.on-foot {
 
 footer {
   margin-top: -0px;
-  padding: 30px 0 100px;
+  padding: 30px 0 30px;
   background: #f0f0f0;
 }
 
@@ -2124,7 +2124,7 @@ footer p {
 }
 
 footer .copyright {
-  margin-top: 37px;
+  margin-top: 55px;
 }
 
 @media screen and (max-width: 992px) {
