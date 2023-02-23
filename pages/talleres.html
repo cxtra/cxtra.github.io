@@ -8,8 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../css/core.css">
     <link rel="stylesheet" type="text/css" href="../css/base.css">
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" href="vendor/csstart.min.css">
+    <link rel="stylesheet" href="../build/slighter.css">
     <link rel="icon" type="image/png" href="favicon.png?v=2">
     <script src="../js/assets/jquery.js"></script>
+
   </head>
   <body>
     <div class="body-overlay"></div>
@@ -43,17 +46,27 @@
           <div class="menu"></div>
         </div>
       </header>
-      <section class="container content" style="padding-bottom: 30px;">
-       <div class="row">
-             <div class="col-md-12">
-                   <div class="row-fluid">
-                     <div class="col-sm-3"><img alt="" src="../images/thumbs/perfil.png"></div>
-<h4><p>Soy un diseñador independiente especializado en todo tipo de proyectos que involucren <strong>caligrafía y lettering personalizado</strong> para diseño de marca y publicación. Esto incluye logo, identidad, publicidad, packaging y diseño editorial.<br> Ubicado en Tenerife, Islas Canarias, ayudo a clientes nacionales e internacionales a mejorar su comunicación con letras exclusivas hechas a mano, creando soluciones únicas para cada proyecto.</p></h4></div>
-              </div>
-            </div>
+       <section class="container content" style="padding-bottom: 30px;">
+        <div class="row">
+              <div class="col-md-12 ">
+
+                    <div class="row-fluid">
+                      <div class="col-sm-6">
+                    <div class="my-x-large">
+                        <div class="slider">
+                            <img src="../images/29739281_209504733148246_8426378522221608960_n.jpg" alt="Slide">
+                            <img src="../images/47275266_346739719211529_2615685789247688187_n.jpg" alt="Slide">
+                            <img src="../images/59428117_887122924988321_139610615541984897_n.jpg" alt="Slide">
+                            <img src="../images/61257303_416098935898278_3320451359256157626_n.jpg" alt="Slide">
+                            <img src="../images/75310180_2634710313241544_1048782181502930922_n.jpg" alt="Slide">
+                        </div></div>
+                    </div><h4><p>A parte de encargos sobre proyectos también estoy implicado en la docencia.</p></h4>
+                  <h4><p>Desde el 2017 estoy impartiendo talleres y cursos en universidades, museos, papelerías y dando clases particulares de caligrafía y en este tiempo he ido mejorando el temario y el sistema de enseñanza.</p></h4>
+                    <h4><p>Si te interesa organizar un taller no dudes en contactar conmigo.<p><h4>
+            </div></div>
 
       </section>
-       <section class="container content top-line" style="padding-top: 20px;padding-bottom: 30px;width:100%;text-align:left;background-color:white;">
+       <section class="container content top-line" style="padding-top: 20px;padding-bottom: 30px;width:100%;text-align:left;background-color:#white;">
         <div class="row">
          <div class="col-md-12">
             <div class="show-columns">
@@ -135,6 +148,11 @@ $.extend($.validator.messages, {
   max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
   min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
 });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', () => {
+                let slider = new Slighter(document.querySelector('.slider'), 5000);
+            });
+        </script>
 <!--End mc_embed_signup-->
     <script src="../js/assets/bootstrap.js"></script>
     <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
@@ -144,5 +162,6 @@ $.extend($.validator.messages, {
     <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
     <script src="../js/assets/animsition.js"></script>
     <script src="../js/functions.js"></script>
+    <script src="../build/slighter.js"></script>
   </body>
 </html>

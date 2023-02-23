@@ -19,6 +19,7 @@
   11. Forms
   12. Tera slider
   13. Tera Lightbox
+  14. Slideshow
 
 -----------------------*/
 /*---
@@ -186,7 +187,7 @@ h1.lg {
 }
 
 .content img {
-  margin: 35px 0;
+  margin: 0px 0;
   max-width: 100%;
 }
 
@@ -2852,3 +2853,10 @@ Made by Themanoid
   text-align: center;
   padding: 20px;
 }
+/*---
+  14. Slideshow
+---*/
+/*
+
+
+*/
