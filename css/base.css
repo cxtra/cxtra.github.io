@@ -54,12 +54,12 @@ a:focus, a:active, a:hover, textarea:focus, textarea:active, textarea:hover, inp
   02. Typography
 ---*/
 body {
-  font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+  font-family:  "Helvetica Neue", "Roboto Mono", sans-serif;
   font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family:  "Helvetica Neue", "Work Sans", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Roboto Mono", sans-serif;
   font-size: 2.2em;
   margin: 10px 0 25px;
 }
@@ -98,7 +98,7 @@ h3 {
 h4 {
   font-size: 1.3em;
   margin-bottom: 10px;
-  font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Roboto Mono", sans-serif;
 }
 
 h5 {
@@ -436,7 +436,7 @@ h1 span.right, h2 span.right, h3 span.right, h4 span.right, h5 span.right, h6 sp
 
 .nav-container li a {
   font-size: 1.9em;
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Work Sans", sans-serif;
   font-weight: 500;
   color: #2E2E2E;
   display: inline-block;
@@ -481,7 +481,7 @@ h1 span.right, h2 span.right, h3 span.right, h4 span.right, h5 span.right, h6 sp
 
 .nav-container li ul.dropdown li a {
   padding: 5px;
-  font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Roboto Mono", sans-serif;
   font-size: 13px;
   font-weight: 300;
 }
@@ -1204,7 +1204,7 @@ img.standalone {
 }
 
 .btn {
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Work Sans", sans-serif;
   border-radius: 0;
   border: 0;
   padding: 12px 25px;
@@ -1411,7 +1411,7 @@ ul.breadcrumbs li:last-child:after {
   font-size: 1.2em;
   line-height: 2;
   font-weight: bold;
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Work Sans", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -1497,7 +1497,7 @@ blockquote {
   margin-bottom: 10px;
   border: 3px solid rgba(46, 46, 46, 0.1);
   position: relative;
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Work Sans", sans-serif;
   font-size: 1.5em;
 }
 
@@ -1525,7 +1525,7 @@ blockquote:after {
 .label {
   background: #2E2E2E;
   font-size: 1em;
-  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue","Work Sans", sans-serif;
   font-weight: 500;
   padding: 4px 8px 5px;
   color: #fff;
@@ -1565,7 +1565,7 @@ blockquote:after {
 }
 
 .tabs .tab-content {
-  font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Roboto Mono", sans-serif;
   border: 1px solid #dedede;
   border-top: 0;
   padding: 30px;
